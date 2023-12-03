@@ -19,12 +19,13 @@ p{
 
 
 .container{
-    max-width: 1300px;
+    /* max-width: 1300px; Remove this line to allow full width */
     margin: auto;
     padding-left: 25px;
     padding-right: 25px;
-    
+    background: radial-gradient(#ff9900, #ffcc99); /* Add your background here */
 }
+
 .navbar{
     display: flex;
     align-items: center;
@@ -574,7 +575,9 @@ form a{
     left: 0;
 }
 
-
+.container_footer {
+    background: black;
+}
 
 
 
